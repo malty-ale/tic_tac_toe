@@ -19,6 +19,7 @@ class Game
     until @success do
       @current_player == @player_a ? @current_player = @player_b : @current_player = @player_a
       puts "It's #{@current_player}'s turn!  Where would you like to go?"
+      #add board image, then have them pick a square
       success?
     end   
   end
